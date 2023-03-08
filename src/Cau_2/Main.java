@@ -20,7 +20,6 @@ public class Main {
         String address = in.nextLine();
         System.out.print("Nhập chuyên nghành: ");
         String chuyenNghanh = in.nextLine();
-
         NhanVien nv2 = new KyThuat(id,name, year, address, chuyenNghanh);
         System.out.println(nv2);
         System.out.println(nv2.moTaCongViec());
